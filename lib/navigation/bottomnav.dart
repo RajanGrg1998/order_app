@@ -1,11 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:order_app/page/bookmarkpage.dart';
-import 'package:order_app/advancecreditswidgets/profilepage.dart';
-import 'package:order_app/page/searchpage.dart';
+import 'package:order_app/pages/bookmarkpage.dart';
+import 'package:order_app/pages/homepage.dart';
+import 'package:order_app/pages/orderpage.dart';
+import 'package:order_app/pages/profilepage.dart';
+import 'package:order_app/pages/searchpage.dart';
+
 import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
-import 'page/homepage.dart';
-import 'page/orderpage.dart';
 
 class BottomNav extends StatelessWidget {
   @override
